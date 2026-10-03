@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulas International School | Excellence in Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="progress-bar" id="progressBar"></div>
+
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">T</span>
+            <span>TULAS <small>INTERNATIONAL SCHOOL</small></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#academics">Academics</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact" class="nav-cta">Admissions</a>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content reveal">
+                <span class="eyebrow">WELCOME TO TULAS INTERNATIONAL SCHOOL</span>
+                <h1>Inspiring Young Minds. <span>Shaping Bright Futures.</span></h1>
+                <p>
+                    Discover a world of learning where curiosity grows,
+                    creativity thrives, and every student is encouraged
+                    to reach their full potential.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Explore Admissions ↗</a>
+                    <a href="#about" class="btn btn-outline">Discover Our School</a>
+                </div>
+                <div class="hero-stats">
+                    <div><strong>20+</strong><small>Years of Learning</small></div>
+                    <div><strong>100%</strong><small>Focus on Growth</small></div>
+                    <div><strong>360°</strong><small>Holistic Education</small></div>
+                </div>
+            </div>
+
+            <div class="hero-image reveal">
+                <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1000" alt="Modern school building">
+                <div class="image-label">
+                    <span>✦</span>
+                    Learning Beyond Classrooms
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="section-image reveal">
+                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=900" alt="Students learning in a classroom">
+            </div>
+            <div class="section-content reveal">
+                <span class="eyebrow">ABOUT OUR SCHOOL</span>
+                <h2>Education That Goes Beyond the Classroom</h2>
+                <p>
+                    At Tulas International School, education is about
+                    more than textbooks. We believe in nurturing
+                    confident, responsible, and creative individuals.
+                </p>
+                <p>
+                    Our learning environment encourages students to
+                    explore ideas, build essential skills, and discover
+                    their unique strengths.
+                </p>
+                <a href="#academics" class="text-link">Discover Our Approach ↗</a>
+            </div>
+        </section>
+
+        <section class="academics section" id="academics">
+            <div class="section-heading reveal">
+                <span class="eyebrow">OUR ACADEMICS</span>
+                <h2>A Learning Journey for Every Student</h2>
+                <p>Building strong foundations for lifelong learning.</p>
+            </div>
+
+            <div class="card-grid">
+                <article class="info-card reveal">
+                    <div class="card-icon">✦</div>
+                    <h3>Early Learning</h3>
+                    <p>Encouraging curiosity, creativity, and foundational skills through engaging learning experiences.</p>
+                    <a href="#contact">Learn More ↗</a>
+                </article>
+
+                <article class="info-card reveal">
+                    <div class="card-icon">✎</div>
+                    <h3>Primary Education</h3>
+                    <p>Developing essential knowledge, confidence, and independent thinking in young learners.</p>
+                    <a href="#contact">Learn More ↗</a>
+                </article>
+
+                <article class="info-card reveal">
+                    <div class="card-icon">◎</div>
+                    <h3>Secondary Education</h3>
+                    <p>Preparing students for future challenges through deeper learning and practical skills.</p>
+                    <a href="#contact">Learn More ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="features section" id="facilities">
+            <div class="section-heading reveal">
+                <span class="eyebrow">CAMPUS & FACILITIES</span>
+                <h2>Space to Learn, Create and Grow</h2>
+            </div>
+
+            <div class="facility-grid">
+                <article class="facility reveal">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=800" alt="School campus">
+                    <div>
+                        <h3>Modern Campus</h3>
+                        <p>A welcoming environment for learning and exploration.</p>
+                    </div>
+                </article>
+                <article class="facility reveal">
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=800" alt="Classroom">
+                    <div>
+                        <h3>Smart Classrooms</h3>
+                        <p>Interactive spaces that support engaging lessons.</p>
+                    </div>
+                </article>
+                <article class="facility reveal">
+                    <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800" alt="Sports activity">
+                    <div>
+                        <h3>Sports & Activities</h3>
+                        <p>Opportunities to build teamwork and confidence.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonial section" id="testimonials">
+            <div class="section-heading reveal">
+                <span class="eyebrow">PARENT EXPERIENCES</span>
+                <h2>Words That Inspire Us</h2>
+            </div>
+            <div class="testimonial-box reveal">
+                <span class="quote-mark">“</span>
+                <p id="quoteText">
+                    A positive learning environment helps children
+                    develop confidence, curiosity, and a love for learning.
+                </p>
+                <h3 id="quoteName">A School Community Perspective</h3>
+                <div class="slider-controls">
+                    <button id="prevQuote" aria-label="Previous testimonial">←</button>
+                    <button id="nextQuote" aria-label="Next testimonial">→</button>
+                </div>
+            </div>
+            <p class="demo-note">Illustrative testimonial content for the redesign demo.</p>
+        </section>
+
+        <section class="admission section reveal" id="contact">
+            <div>
+                <span class="eyebrow">YOUR JOURNEY STARTS HERE</span>
+                <h2>Give Your Child a Bright Beginning</h2>
+                <p>Explore the opportunities and learning experiences at Tulas International School.</p>
+            </div>
+            <a class="btn btn-light" href="https://tis.edu.in/" target="_blank" rel="noopener noreferrer">Visit Official Website ↗</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo footer-logo">
+            <span class="logo-icon">T</span>
+            <span>TULAS <small>INTERNATIONAL SCHOOL</small></span>
+        </a>
+        <p>Learning today. Leading tomorrow.</p>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#academics">Academics</a>
+            <a href="#contact">Admissions</a>
+            <a href="https://tis.edu.in/" target="_blank" rel="noopener noreferrer">Official Website</a>
+        </div>
+        <small>© 2026 TIS Homepage Redesign Concept</small>
+    </footer>
+
+    <section class="admission section reveal" id="contact">
+        <div class="admission-content">
+            <span class="eyebrow">ADMISSIONS OPEN</span>
+            <h2>Start Your Child's Learning Journey</h2>
+            <p>
+                Connect with us to explore learning opportunities
+                and admission information.
+            </p>
+        </div>
+
+        <form id="admissionForm" class="admission-form">
+            <h3>Enquiry Form</h3>
+
+            <label for="studentName">Student Name</label>
+            <input type="text" id="studentName" placeholder="Enter student name" required>
+
+            <label for="parentName">Parent Name</label>
+            <input type="text" id="parentName" placeholder="Enter parent name" required>
+
+            <label for="phone">Mobile Number</label>
+            <input type="tel" id="phone" placeholder="10-digit mobile number" pattern="[6-9][0-9]{9}" required>
+
+            <label for="grade">Class</label>
+            <select id="grade" required>
+                <option value="">Select class</option>
+                <option>Nursery</option>
+                <option>KG</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+                <option>Class 6</option>
+                <option>Class 7</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+                <option>Class 11</option>
+                <option>Class 12</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">
+                Submit Enquiry ↗
+            </button>
+
+            <p id="formMessage" aria-live="polite"></p>
+        </form>
+    </section>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor"></div>
+
+
+
+</body>
+
+</html>
